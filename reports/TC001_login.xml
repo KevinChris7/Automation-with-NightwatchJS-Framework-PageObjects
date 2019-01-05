@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="3">
+
+  <testsuite name="TC001_login"
+    errors="1" failures="0" hostname="" id="" package="TC001_login" skipped="2"
+    tests="3" time="0.004000" timestamp="Sun, 30 Dec 2018 07:01:50 GMT">
+  
+    <testcase name="Go to Hot Section list" classname="TC001_login" time="0.004000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [TC001 Login / Go to Hot Section list]:
+
+  TypeError: storyPage is not a function
+    at Object.Go to Hot Section list (C:\Users\kevin\Documents\Automation\TestFramework\tests\TC001_login.js:16:3)
+    at Module.call (C:\Users\kevin\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\kevin\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\kevin\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at C:\Users\kevin\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (C:\Users\kevin\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\kevin\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\kevin\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\kevin\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Go to Trending Section list" classname="TC001_login">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Go to Fresh Section list" classname="TC001_login">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
